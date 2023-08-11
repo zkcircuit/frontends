@@ -37,6 +37,7 @@ declare module "@mui/material/styles" {
       dark: string
       normal: string
       highlight: string
+      optionHightlight: string
       tag: string
     }
     link: {
@@ -91,6 +92,7 @@ declare module "@mui/material/styles" {
       dark: string
       normal: string
       highlight: string
+      optionHightlight: string
       tag: string
     }
     link?: {
