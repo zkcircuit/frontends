@@ -4,6 +4,7 @@ import Portal from "@/pages/home"
 import Home from "@/pages/landingpage"
 // import Bridge from "@/pages/bridge"
 import Bridge from "@/pages/new-bridge"
+import BridgeFAQ from "@/pages/new-bridge/FAQ"
 import OurStory from "@/pages/ourStory"
 import RollupScanBatch from "@/pages/rollup/batch"
 import RollupScanBlock from "@/pages/rollup/block"
@@ -60,6 +61,12 @@ const routes = [
     path: "/bridge",
     fullPath: "/bridge",
     element: <Bridge />,
+  },
+  {
+    name: "Bridge FAQ",
+    path: "/bridge/faq",
+    fullPath: "/bridge/faq",
+    element: <BridgeFAQ />,
   },
   {
     name: "Ecosystem",
